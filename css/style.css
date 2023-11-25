@@ -1,0 +1,86 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+
+body{
+overflow-x: hidden;
+
+}
+
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.header{
+    top: 0;
+    position: sticky;
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;    
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: semi-bold;
+    letter-spacing: 4px;
+
+
+}
+.header a{
+color: white;
+transition: .3s;
+}
+
+.header a:hover{
+    color: rgb(216, 216, 216);
+
+}
+
+
+
+
+.main h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+
+}
+
+.main p{
+margin-right: 25%;
+margin-left: 25%;
+margin-top: 2%;
+text-align: justify;
+font-family: 'Noto Sans KR', sans-serif;
+font-weight: 400;
+}
+
+.main img{
+margin-top: 2%;
+margin-bottom: 2%;
+
+}
+
+a{
+text-decoration: none;}
+
+footer{
+margin-right: 10%;
+
+}
+
+.main li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 140%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+li{
+list-style: none;
+}
